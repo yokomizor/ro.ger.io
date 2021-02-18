@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang=en-us>
 <meta charset=utf-8>
-<title>Hi, I&apos;m Rog&eacute;rio da Silva Yokomizo</title>
+<title>Rog&eacute;rio da Silva Yokomizo</title>
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
@@ -34,17 +34,10 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background: #fff;
-  color: #333;
-  font-size: 1.4em;
+  background: #111;
+  color: #ccc;
+  font-size: 1.8em;
   font-family: monospace; 
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #111;
-    color: #ccc;
-  }
 }
 
 ::selection {
@@ -59,32 +52,19 @@ main {
   padding: 0.8rem 2.5rem;
 }
 
-ul {
-  display: flex;
-  justify-content: center;
-  flex-flow: column nowrap;
-  margin: 3.5rem 0 0 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 h1 {
-  position: relative;
-  font-size: 1.35em;
+  font-size: 1.5rem;
   margin: 0 0 0.5rem 0;
 }
 
 .email {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  margin: 0 0 0.75rem 0;
 }
 
-.gpg {
+.link {
   margin: 0.25rem 0 0 0;
-  font-size: 0.8rem;
-}
-
-li + li {
-  margin-top: 0.2rem;
+  font-size: 1rem;
 }
 
 a,
@@ -102,12 +82,11 @@ a:hover {
 
 </style>
 <main>
-  <h1><div>Rog&eacute;rio</div><div>da Silva Yokomizo</div></h1>
+  <h1><div>Rog&eacute;rio<br>da Silva Yokomizo</div></h1>
   <div class="email"><a href="mailto:me@ro.ger.io">me@ro.ger.io</a></div>
-  <div class="gpg"><a href="https://github.com/yokomizor.gpg">0x9AAE983943D0E9BB</a></div>
-  <ul>
-    <li><a href="https://github.com/yokomizor">GitHub</a></li>
-    <li><a href="https://keybase.io/yokomizor">Keybase</a></li>
-    <li><a href="https://stackoverflow.com/users/2213855/yokomizor">Stack Overflow</a></li>
-  </ul>
+  <div class="link">
+    <a href="./rogerio_da_silva_yokomizo_pgp_keys.asc">0x9AAE983943D0E9BB</a>
+    [<a href="https://github.com/yokomizor.gpg">1</a>][<a href="https://keybase.io/yokomizor/pgp_keys.asc">2</a>][<a href="https://keys.openpgp.org/search?q=me%40ro.ger.io">3</a>]
+  </div>
+  <div class="link"><a href="https://github.com/yokomizor">github.com/yokomizo</a></div>
 </main>
