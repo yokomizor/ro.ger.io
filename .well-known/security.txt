@@ -1,2 +1,2 @@
 Contact: mailto:me@ro.ger.io
-Encryption: https://ro.ger.io/rogerio_da_silva_yokomizo_pgp_keys.asc
+Encryption: https://ro.ger.io/.well-known/openpgpkey/hu/s8y7oh5xrdpu9psba3i5ntk64ohouhga
